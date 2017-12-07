@@ -1,0 +1,3 @@
+/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles/DS_DNA_list.dir
