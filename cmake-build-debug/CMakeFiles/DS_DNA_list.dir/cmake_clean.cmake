@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DS_DNA_list.dir/main.cpp.o"
+  "CMakeFiles/DS_DNA_list.dir/MyString.cpp.o"
+  "CMakeFiles/DS_DNA_list.dir/Gene.cpp.o"
+  "CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o"
   "DS_DNA_list.pdb"
   "DS_DNA_list"
 )

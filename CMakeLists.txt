@@ -3,4 +3,4 @@ project(DS_DNA_list)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(DS_DNA_list main.cpp)
+add_executable(DS_DNA_list main.cpp MyString.cpp MyString.h Gene.cpp Gene.h MyMap.cpp MyMap.h)

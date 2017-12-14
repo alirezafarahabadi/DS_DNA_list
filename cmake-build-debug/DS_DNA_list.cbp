@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/alireza/CLionProjects/DS/project2/DS_DNA_list/Gene.cpp">
+			<Option target="DS_DNA_list"/>
+		</Unit>
+		<Unit filename="/home/alireza/CLionProjects/DS/project2/DS_DNA_list/Gene.h">
+			<Option target="DS_DNA_list"/>
+		</Unit>
+		<Unit filename="/home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyMap.cpp">
+			<Option target="DS_DNA_list"/>
+		</Unit>
+		<Unit filename="/home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyMap.h">
+			<Option target="DS_DNA_list"/>
+		</Unit>
+		<Unit filename="/home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyString.cpp">
+			<Option target="DS_DNA_list"/>
+		</Unit>
+		<Unit filename="/home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyString.h">
+			<Option target="DS_DNA_list"/>
+		</Unit>
 		<Unit filename="/home/alireza/CLionProjects/DS/project2/DS_DNA_list/main.cpp">
 			<Option target="DS_DNA_list"/>
 		</Unit>

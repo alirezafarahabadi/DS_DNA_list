@@ -81,17 +81,95 @@ CMakeFiles/DS_DNA_list.dir/main.cpp.o.provides: CMakeFiles/DS_DNA_list.dir/main.
 CMakeFiles/DS_DNA_list.dir/main.cpp.o.provides.build: CMakeFiles/DS_DNA_list.dir/main.cpp.o
 
 
+CMakeFiles/DS_DNA_list.dir/MyString.cpp.o: CMakeFiles/DS_DNA_list.dir/flags.make
+CMakeFiles/DS_DNA_list.dir/MyString.cpp.o: ../MyString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DS_DNA_list.dir/MyString.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_DNA_list.dir/MyString.cpp.o -c /home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyString.cpp
+
+CMakeFiles/DS_DNA_list.dir/MyString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_DNA_list.dir/MyString.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyString.cpp > CMakeFiles/DS_DNA_list.dir/MyString.cpp.i
+
+CMakeFiles/DS_DNA_list.dir/MyString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_DNA_list.dir/MyString.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyString.cpp -o CMakeFiles/DS_DNA_list.dir/MyString.cpp.s
+
+CMakeFiles/DS_DNA_list.dir/MyString.cpp.o.requires:
+
+.PHONY : CMakeFiles/DS_DNA_list.dir/MyString.cpp.o.requires
+
+CMakeFiles/DS_DNA_list.dir/MyString.cpp.o.provides: CMakeFiles/DS_DNA_list.dir/MyString.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/MyString.cpp.o.provides.build
+.PHONY : CMakeFiles/DS_DNA_list.dir/MyString.cpp.o.provides
+
+CMakeFiles/DS_DNA_list.dir/MyString.cpp.o.provides.build: CMakeFiles/DS_DNA_list.dir/MyString.cpp.o
+
+
+CMakeFiles/DS_DNA_list.dir/Gene.cpp.o: CMakeFiles/DS_DNA_list.dir/flags.make
+CMakeFiles/DS_DNA_list.dir/Gene.cpp.o: ../Gene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DS_DNA_list.dir/Gene.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_DNA_list.dir/Gene.cpp.o -c /home/alireza/CLionProjects/DS/project2/DS_DNA_list/Gene.cpp
+
+CMakeFiles/DS_DNA_list.dir/Gene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_DNA_list.dir/Gene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/CLionProjects/DS/project2/DS_DNA_list/Gene.cpp > CMakeFiles/DS_DNA_list.dir/Gene.cpp.i
+
+CMakeFiles/DS_DNA_list.dir/Gene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_DNA_list.dir/Gene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/CLionProjects/DS/project2/DS_DNA_list/Gene.cpp -o CMakeFiles/DS_DNA_list.dir/Gene.cpp.s
+
+CMakeFiles/DS_DNA_list.dir/Gene.cpp.o.requires:
+
+.PHONY : CMakeFiles/DS_DNA_list.dir/Gene.cpp.o.requires
+
+CMakeFiles/DS_DNA_list.dir/Gene.cpp.o.provides: CMakeFiles/DS_DNA_list.dir/Gene.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/Gene.cpp.o.provides.build
+.PHONY : CMakeFiles/DS_DNA_list.dir/Gene.cpp.o.provides
+
+CMakeFiles/DS_DNA_list.dir/Gene.cpp.o.provides.build: CMakeFiles/DS_DNA_list.dir/Gene.cpp.o
+
+
+CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o: CMakeFiles/DS_DNA_list.dir/flags.make
+CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o: ../MyMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o -c /home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyMap.cpp
+
+CMakeFiles/DS_DNA_list.dir/MyMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_DNA_list.dir/MyMap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyMap.cpp > CMakeFiles/DS_DNA_list.dir/MyMap.cpp.i
+
+CMakeFiles/DS_DNA_list.dir/MyMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_DNA_list.dir/MyMap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyMap.cpp -o CMakeFiles/DS_DNA_list.dir/MyMap.cpp.s
+
+CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o.requires:
+
+.PHONY : CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o.requires
+
+CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o.provides: CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o.provides.build
+.PHONY : CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o.provides
+
+CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o.provides.build: CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o
+
+
 # Object files for target DS_DNA_list
 DS_DNA_list_OBJECTS = \
-"CMakeFiles/DS_DNA_list.dir/main.cpp.o"
+"CMakeFiles/DS_DNA_list.dir/main.cpp.o" \
+"CMakeFiles/DS_DNA_list.dir/MyString.cpp.o" \
+"CMakeFiles/DS_DNA_list.dir/Gene.cpp.o" \
+"CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o"
 
 # External object files for target DS_DNA_list
 DS_DNA_list_EXTERNAL_OBJECTS =
 
 DS_DNA_list: CMakeFiles/DS_DNA_list.dir/main.cpp.o
+DS_DNA_list: CMakeFiles/DS_DNA_list.dir/MyString.cpp.o
+DS_DNA_list: CMakeFiles/DS_DNA_list.dir/Gene.cpp.o
+DS_DNA_list: CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o
 DS_DNA_list: CMakeFiles/DS_DNA_list.dir/build.make
 DS_DNA_list: CMakeFiles/DS_DNA_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DS_DNA_list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DS_DNA_list"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DS_DNA_list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +178,9 @@ CMakeFiles/DS_DNA_list.dir/build: DS_DNA_list
 .PHONY : CMakeFiles/DS_DNA_list.dir/build
 
 CMakeFiles/DS_DNA_list.dir/requires: CMakeFiles/DS_DNA_list.dir/main.cpp.o.requires
+CMakeFiles/DS_DNA_list.dir/requires: CMakeFiles/DS_DNA_list.dir/MyString.cpp.o.requires
+CMakeFiles/DS_DNA_list.dir/requires: CMakeFiles/DS_DNA_list.dir/Gene.cpp.o.requires
+CMakeFiles/DS_DNA_list.dir/requires: CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o.requires
 
 .PHONY : CMakeFiles/DS_DNA_list.dir/requires
 

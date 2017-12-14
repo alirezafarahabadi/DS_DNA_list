@@ -1,8 +1,15 @@
 #include <iostream>
+#include "MyString.h"
 
 using namespace std;
 
 int main(){
-    cout<<"Hello, World!"<<endl;
+
+    MyString order;
+    char* s;
+    cin.getline(s,20);
+    
+
+
     return 0;
 }

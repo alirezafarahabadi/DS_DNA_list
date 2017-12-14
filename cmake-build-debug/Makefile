@@ -123,6 +123,87 @@ DS_DNA_list/fast:
 	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/build
 .PHONY : DS_DNA_list/fast
 
+Gene.o: Gene.cpp.o
+
+.PHONY : Gene.o
+
+# target to build an object file
+Gene.cpp.o:
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/Gene.cpp.o
+.PHONY : Gene.cpp.o
+
+Gene.i: Gene.cpp.i
+
+.PHONY : Gene.i
+
+# target to preprocess a source file
+Gene.cpp.i:
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/Gene.cpp.i
+.PHONY : Gene.cpp.i
+
+Gene.s: Gene.cpp.s
+
+.PHONY : Gene.s
+
+# target to generate assembly for a file
+Gene.cpp.s:
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/Gene.cpp.s
+.PHONY : Gene.cpp.s
+
+MyMap.o: MyMap.cpp.o
+
+.PHONY : MyMap.o
+
+# target to build an object file
+MyMap.cpp.o:
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o
+.PHONY : MyMap.cpp.o
+
+MyMap.i: MyMap.cpp.i
+
+.PHONY : MyMap.i
+
+# target to preprocess a source file
+MyMap.cpp.i:
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/MyMap.cpp.i
+.PHONY : MyMap.cpp.i
+
+MyMap.s: MyMap.cpp.s
+
+.PHONY : MyMap.s
+
+# target to generate assembly for a file
+MyMap.cpp.s:
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/MyMap.cpp.s
+.PHONY : MyMap.cpp.s
+
+MyString.o: MyString.cpp.o
+
+.PHONY : MyString.o
+
+# target to build an object file
+MyString.cpp.o:
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/MyString.cpp.o
+.PHONY : MyString.cpp.o
+
+MyString.i: MyString.cpp.i
+
+.PHONY : MyString.i
+
+# target to preprocess a source file
+MyString.cpp.i:
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/MyString.cpp.i
+.PHONY : MyString.cpp.i
+
+MyString.s: MyString.cpp.s
+
+.PHONY : MyString.s
+
+# target to generate assembly for a file
+MyString.cpp.s:
+	$(MAKE) -f CMakeFiles/DS_DNA_list.dir/build.make CMakeFiles/DS_DNA_list.dir/MyString.cpp.s
+.PHONY : MyString.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DS_DNA_list"
+	@echo "... Gene.o"
+	@echo "... Gene.i"
+	@echo "... Gene.s"
+	@echo "... MyMap.o"
+	@echo "... MyMap.i"
+	@echo "... MyMap.s"
+	@echo "... MyString.o"
+	@echo "... MyString.i"
+	@echo "... MyString.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

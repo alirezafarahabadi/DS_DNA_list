@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/alireza/CLionProjects/DS/project2/DS_DNA_list/Gene.cpp" "/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/Gene.cpp.o"
+  "/home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyMap.cpp" "/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/MyMap.cpp.o"
+  "/home/alireza/CLionProjects/DS/project2/DS_DNA_list/MyString.cpp" "/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/MyString.cpp.o"
   "/home/alireza/CLionProjects/DS/project2/DS_DNA_list/main.cpp" "/home/alireza/CLionProjects/DS/project2/DS_DNA_list/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
