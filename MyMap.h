@@ -18,13 +18,15 @@ public:
     Node* left;
     MyString key;
     Gene value;
-    Node(MyString key, Gene value){
+    Node(const MyString& key, const Gene& value){
         this->key = key;
         this->value = value;
     }
     Node(){
 
     }
+private:
+
 };
 
 
@@ -32,11 +34,9 @@ public:
 class MyMap {
 
 public:
-    Node* root;
-    int p_size;
-    void insert(MyString key, Gene value);
-    Node* find(MyString key);
-    void erase(MyString key);
+    void insert(const MyString& key, const Gene& value);
+    Node* find(const MyString& key) const;
+    void erase(const MyString& key);
 
 
     MyMap(){
@@ -48,9 +48,12 @@ private:
     void left_rotate(Node* x);
     void right_rotate(Node* x);
     void splay(Node* x);
-    Node* subtree_minimum( Node* u );
-    Node* subtree_maximum( Node* u );
+    Node* subtree_minimum( Node* u ) const;
+    Node* subtree_maximum( Node* u ) const;
     void replace(Node* u, Node* v);
+
+    Node* root;
+    int p_size;
 };
 
 

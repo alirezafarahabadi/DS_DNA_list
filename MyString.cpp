@@ -7,8 +7,9 @@
 
 using namespace std;
 
-bool MyString::comparison_(MyString str) {
-    size = get_size(data);
+bool MyString::comparison_(const MyString& str) const{
+    //size is already set when MyString is created and string is currently not mutable
+    //size = get_size(data); 
     int min = size;
     if (str.size < min)
         min = str.size;
@@ -22,7 +23,7 @@ bool MyString::comparison_(MyString str) {
     return false;
 }
 
-int MyString::length(char *str) {
+int MyString::length(const char *str) const {
     int length = 0;
     while (str[length] != '\0') {
         length++;
@@ -30,7 +31,7 @@ int MyString::length(char *str) {
     return length;
 }
 
-char *MyString::get_line() {
+char *MyString::get_line() const{
 
     char *str = new char[200];
     cin.getline(str, 200);
@@ -38,7 +39,7 @@ char *MyString::get_line() {
 
 }
 
-bool MyString::contain(char *source, char *sub) {
+bool MyString::contain(const char *source, const char *sub)  const{
     int size1 = get_size(source);
     int size2 = get_size(sub);
     int counter = 0;
@@ -56,7 +57,7 @@ bool MyString::contain(char *source, char *sub) {
 
 
 
-int MyString::get_size(char *str) {
+int MyString::get_size(const char *str) const{
     int size = 0;
     while (true) {
         if (str[size] != '\0')
@@ -67,7 +68,7 @@ int MyString::get_size(char *str) {
     return size + 1;
 }
 
-char* MyString::erase(char *source) {
+char* MyString::erase(const char *source) const{
 
     int counter = 0;
     while (true){
@@ -86,7 +87,7 @@ char* MyString::erase(char *source) {
     return new_char;
 }
 
-char* MyString::substr(const char *source) {
+char* MyString::substr(const char *source) const{
     int counter = 0;
     while (true){
         if (source[counter] != 32 && source[counter] != '\0' ){

@@ -13,13 +13,13 @@ class MyString {
 public:
     char* data;
     int size;
-    bool comparison_(MyString str);
-    int length(char* str);
-    int get_size(char* str);
-    char* get_line();
-    bool contain(char* source, char* sub);
-    char* erase(char* source);
-    char *substr(const char *source);
+    bool comparison_(const MyString& str) const;
+    int length(const char* str) const;
+    int get_size(const char* str) const;
+    char* get_line() const;
+    bool contain(const char* source, const char* sub) const;
+    char* erase(const char* source) const;
+    char *substr(const char *source) const;
 
     MyString(char* data1){
         this->data = data1;
