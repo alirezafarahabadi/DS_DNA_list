@@ -12,8 +12,10 @@
 using namespace std;
 
 class Gene {
+public:
     int x1,x2;
     list<MyString> names;
+    Gene();
 
 };
 

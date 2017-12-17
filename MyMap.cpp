@@ -52,7 +52,7 @@ void MyMap::splay(Node *x) {
     }
 }
 
-void MyMap::insert(MyString key, Gene* value) {
+void MyMap::insert(MyString key, Gene value) {
     Node *z = root;
     Node *p = nullptr;
 

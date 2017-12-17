@@ -3,3 +3,8 @@
 //
 
 #include "Gene.h"
+
+Gene::Gene() {
+   // names = Vector<MyString>();
+
+}

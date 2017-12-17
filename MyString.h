@@ -15,15 +15,20 @@ public:
     int size;
     bool comparison_(MyString str);
     int length(char* str);
+    int get_size(char* str);
+    char* get_line();
+    bool contain(char* source, char* sub);
+    char* erase(char* source);
+    char *substr(const char *source);
 
-    explicit MyString(char* data1){
+    MyString(char* data1){
         this->data = data1;
-        size = sizeof(data)/ sizeof(char);
+        size = get_size(data);
     }
+
     MyString(){
 
     }
-
 };
 
 

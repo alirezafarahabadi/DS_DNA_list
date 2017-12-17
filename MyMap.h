@@ -17,8 +17,8 @@ public:
     Node* right;
     Node* left;
     MyString key;
-    Gene* value;
-    Node(MyString key, Gene* value){
+    Gene value;
+    Node(MyString key, Gene value){
         this->key = key;
         this->value = value;
     }
@@ -31,19 +31,18 @@ public:
 
 class MyMap {
 
-    MyMap(){
-        root = nullptr;
-        p_size = 0;
-    }
-
 public:
     Node* root;
     int p_size;
-    void insert(MyString key, Gene* value);
+    void insert(MyString key, Gene value);
     Node* find(MyString key);
     void erase(MyString key);
 
 
+    MyMap(){
+        root = nullptr;
+        p_size = 0;
+    }
 
 private:
     void left_rotate(Node* x);
