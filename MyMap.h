@@ -18,7 +18,7 @@ public:
     Node* left;
     MyString key;
     Gene value;
-    Node(MyString key, Gene value){
+    Node(const MyString& key, const Gene& value){
         this->key = key;
         this->value = value;
     }
@@ -34,9 +34,9 @@ class MyMap {
 public:
     Node* root;
     int p_size;
-    void insert(MyString key, Gene value);
-    Node* find(MyString key);
-    void erase(MyString key);
+    void insert(const MyString& key, const Gene& value);
+    Node* find(const MyString& key);
+    void erase(const MyString& key);
 
 
     MyMap(){
