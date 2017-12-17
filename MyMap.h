@@ -25,6 +25,8 @@ public:
     Node(){
 
     }
+private:
+
 };
 
 
@@ -32,10 +34,8 @@ public:
 class MyMap {
 
 public:
-    Node* root;
-    int p_size;
     void insert(const MyString& key, const Gene& value);
-    Node* find(const MyString& key);
+    Node* find(const MyString& key) const;
     void erase(const MyString& key);
 
 
@@ -48,9 +48,12 @@ private:
     void left_rotate(Node* x);
     void right_rotate(Node* x);
     void splay(Node* x);
-    Node* subtree_minimum( Node* u );
-    Node* subtree_maximum( Node* u );
+    Node* subtree_minimum( Node* u ) const;
+    Node* subtree_maximum( Node* u ) const;
     void replace(Node* u, Node* v);
+
+    Node* root;
+    int p_size;
 };
 
 

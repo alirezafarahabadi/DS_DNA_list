@@ -73,12 +73,12 @@ void MyMap::insert(const MyString& key, const Gene& value) {
     p_size++;
 }
 
-Node* MyMap::subtree_minimum(Node *u) {
+Node* MyMap::subtree_minimum(Node *u) const{
     while( u->left ) u = u->left;
     return u;
 }
 
-Node* MyMap::subtree_maximum(Node *u) {
+Node* MyMap::subtree_maximum(Node *u) const{
     while( u->right ) u = u->right;
     return u;
 }
@@ -91,7 +91,7 @@ void MyMap::replace( Node *u, Node *v ) {
 }
 
 
-Node* MyMap::find(const MyString& key) {
+Node* MyMap::find(const MyString& key) const{
     Node *z = root;
     while( z ) {
         if( key.comparison_(z->key) ) z = z->right;
