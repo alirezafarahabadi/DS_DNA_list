@@ -14,7 +14,8 @@ using namespace std;
 class Gene {
 public:
     int x1,x2;
-    list<MyString> names;
+    list <MyString> names;
+    list <Gene> neighbors;
     Gene();
 
 };

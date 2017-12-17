@@ -13,16 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d94c9b12-9c02-4956-8cf4-086d30bba9ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gene.cpp" afterPath="$PROJECT_DIR$/Gene.cpp" />
       <change beforePath="$PROJECT_DIR$/Gene.h" afterPath="$PROJECT_DIR$/Gene.h" />
-      <change beforePath="$PROJECT_DIR$/MyMap.cpp" afterPath="$PROJECT_DIR$/MyMap.cpp" />
-      <change beforePath="$PROJECT_DIR$/MyMap.h" afterPath="$PROJECT_DIR$/MyMap.h" />
-      <change beforePath="$PROJECT_DIR$/MyString.cpp" afterPath="$PROJECT_DIR$/MyString.cpp" />
-      <change beforePath="$PROJECT_DIR$/MyString.h" afterPath="$PROJECT_DIR$/MyString.h" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/main.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DS_DNA_list.dir/main.cpp.o" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/DS_DNA_list" afterPath="$PROJECT_DIR$/cmake-build-debug/DS_DNA_list" />
       <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
@@ -40,8 +32,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="705">
+              <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -52,8 +44,8 @@
       <file leaf-file-name="Gene.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gene.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="e#96#115#0" expanded="true" />
               </folding>
@@ -127,11 +119,11 @@
         <option value="$PROJECT_DIR$/Vector.h" />
         <option value="$PROJECT_DIR$/Vector.cpp" />
         <option value="$PROJECT_DIR$/Gene.cpp" />
-        <option value="$PROJECT_DIR$/Gene.h" />
         <option value="$PROJECT_DIR$/MyString.h" />
         <option value="$PROJECT_DIR$/MyMap.cpp" />
         <option value="$PROJECT_DIR$/MyMap.h" />
         <option value="$PROJECT_DIR$/MyString.cpp" />
+        <option value="$PROJECT_DIR$/Gene.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -224,12 +216,12 @@
       <workItem from="1512747237987" duration="5828000" />
       <workItem from="1513261488359" duration="20989000" />
       <workItem from="1513447492978" duration="7028000" />
-      <workItem from="1513495343911" duration="1563000" />
+      <workItem from="1513495343911" duration="4309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44729000" />
+    <option name="totallyTimeSpent" value="47475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="7" />
@@ -540,24 +532,6 @@
     <entry file="file:///media/alireza/40EC7CE8EC7CD99C/university/term3/project1_c++/Analysis.h" />
     <entry file="file://$PROJECT_DIR$/Vector.cpp" />
     <entry file="file://$PROJECT_DIR$/Vector.h" />
-    <entry file="file://$PROJECT_DIR$/Gene.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#96#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gene.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyString.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -592,10 +566,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gene.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#96#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        <state relative-caret-position="705">
+          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

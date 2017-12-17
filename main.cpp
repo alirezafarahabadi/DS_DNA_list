@@ -6,6 +6,8 @@
 
 using namespace std;
 
+bool available_neighbors(Node* source,Node* distination);
+
 int main() {
     MyMap myMap;
     MyString order;
@@ -18,7 +20,7 @@ int main() {
         order.data = order.get_line();
         cout << order.data << endl;
 
-        if (order1.contain(order.data,"AddGene")) {
+        if (order.contain(order.data,"AddGene")) {
             order.data = order.erase(order.data);
             name.data = order.substr(order.data);
             order.data = order.erase(order.data);
@@ -37,24 +39,29 @@ int main() {
             }
         }
 
-        if (order1.contain(order.data,"PrintGeneInfo")) {
+        if (order.contain(order.data,"PrintGeneInfo")) {
             order.data = order.erase(order.data);
             name1.data = order.substr(order.data);
             Node *node = myMap.find(name1);
             if (node == nullptr) {
                 cout << "**Error : there is no gene by this name" << endl;
-            } else {
+            }
+            else {
                 cout << node->key.data << endl;
                 cout << node->value.x1 << endl;
                 cout << node->value.x2 << endl;
-                cout<<"in list"<<endl;
+                cout<<"list of names"<<endl;
                 for(auto v:node->value.names){
                     cout<<v.data<<endl;
+                }
+                cout<<"list of neighbors"<<endl;
+                for(auto v:node->value.neighbors){
+                    cout<<v.names.back().data<<endl;
                 }
             }
         }
 
-        if (order1.contain(order.data,"Add_GeneAlias")) {
+        if (order.contain(order.data,"Add_GeneAlias")) {
             cout << "print1" << endl;
             order.data = order.erase(order.data);
             name.data = order.substr(order.data);
@@ -75,9 +82,38 @@ int main() {
             }
         }
 
+        if (order.contain(order.data,"Regulates")){
+            order.data = order.erase(order.data);
+            name.data = order.substr(order.data);
+            order.data = order.erase(order.data);
+            name1.data = order.substr(order.data);
+            if (myMap.find(name) == nullptr || myMap.find(name1) == nullptr)
+                cout<<"**Error : names are not available"<<endl;
+            else{
+                Node *node = myMap.find(name);
+                Node *node1 = myMap.find(name1);
+                if(available_neighbors(node,node1)){
+                    //NOTHING
+                }
+
+                else {
+                    node->value.neighbors.push_back(node1->value);
+                }
+            }
+
+        }
+
         if (order.contain(order.data, "exit"))
             break;
     }
 
     return 0;
+}
+
+bool available_neighbors(Node* source,Node* distination){
+    for (auto v:source->value.neighbors){
+        if(v.names.back().data == distination->value.names.back().data && v.x1 == distination->value.x1 && v.x2 == distination->value.x2)
+            return true;
+    }
+    return false;
 }
